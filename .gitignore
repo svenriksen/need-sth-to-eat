@@ -10,6 +10,26 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+temp/
+obj/
+build/
+logs/
+memoryCaptures/
+Temp/
+Obj/
+Build/
+Logs/
+MemoryCaptures/
+/temp/
+/obj/
+/build/
+/logs/
+/memoryCaptures/
+/Temp/
+/Obj/
+/Build/
+/Logs/
+/MemoryCaptures/
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 

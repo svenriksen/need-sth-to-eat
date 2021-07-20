@@ -227,6 +227,34 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+<<<<<<< HEAD
+=======
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1466
+    height: 947
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 54
+>>>>>>> 0cdff867e7ac022ea0aeab284dff507ef1755aa6
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,11 +275,19 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1466
+<<<<<<< HEAD
     height: 947
   m_MinSize: {x: 433, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
   controlID: 16
+=======
+    height: 561
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 55
+>>>>>>> 0cdff867e7ac022ea0aeab284dff507ef1755aa6
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,14 +361,21 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/ATLAS/Customizable Kitchen Pack/Models
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\Unity\Projects\need-sth-to-eat\need something to eat
+  m_LastProjectPath: D:\need-sth-to-eat\need something to eat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 182}
     m_SelectedIDs: d46d0000
     m_LastClickedID: 28116
     m_ExpandedIDs: 000000006a3c0000bc4f0000c04f0000c84f0000e44f0000e84f0000a46d0000ae6d0000be6d0000e26d000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 823c0000
+    m_LastClickedID: 15490
+    m_ExpandedIDs: 00000000823c000000ca9a3b
+>>>>>>> 0cdff867e7ac022ea0aeab284dff507ef1755aa6
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +403,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000006a3c0000
+=======
+    m_ExpandedIDs: 00000000823c0000
+>>>>>>> 0cdff867e7ac022ea0aeab284dff507ef1755aa6
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,7 +530,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: bc18ffff0cafffffa4beffff52fbffff
+=======
+      m_ExpandedIDs: 22fbffff
+>>>>>>> 0cdff867e7ac022ea0aeab284dff507ef1755aa6
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
