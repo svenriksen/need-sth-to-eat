@@ -1,0 +1,1514 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1556; Version 1909; 64bit' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Unity\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Projects/need-sth-to-eat/need something to eat
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49219
+Successfully changed project path to: E:/Unity/Projects/need-sth-to-eat/need something to eat
+E:/Unity/Projects/need-sth-to-eat/need something to eat
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path E:/Unity/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Projects/need-sth-to-eat/need something to eat/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     4041 MB
+    Driver:   26.20.12028.2
+Initialize mono
+Mono path[0] = 'E:/Unity/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001156 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (419ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1126ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (873ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 81.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2217.
+Total: 2.409500 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.045500 ms MarkObjects: 2.016600 ms  DeleteObjects: 0.131000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/AssetStoreOriginals
+  artifactKey: Guid(a15f93a87f39be54cb722968971411d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals using Guid(a15f93a87f39be54cb722968971411d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6acd392444033711d19c550931ad3f') in 0.005881 seconds 
+  Import took 0.008911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.492279 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets
+  artifactKey: Guid(3de6a505ee1395544a2f0a3dfdc1e170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets using Guid(3de6a505ee1395544a2f0a3dfdc1e170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7145dc51c382a0f5d711df4a82370482') in 0.003001 seconds 
+  Import took 0.006143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.195133 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About
+  artifactKey: Guid(844809bda0ef59246a44bb3ec8a99a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About using Guid(844809bda0ef59246a44bb3ec8a99a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108f00c080ca4d0af3cc4b54e5f130b3') in 0.003310 seconds 
+  Import took 0.006418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.570281 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior
+  artifactKey: Guid(297b5e148799d744c923d359390b9f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior using Guid(297b5e148799d744c923d359390b9f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b382af6214a672e13f1eec7c105d30fa') in 0.003017 seconds 
+  Import took 0.005996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.521361 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs
+  artifactKey: Guid(b6ea2805136f52a469bef95a0c629b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs using Guid(b6ea2805136f52a469bef95a0c629b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2891b45c4e08153e96db0de0666982dd') in 0.003014 seconds 
+  Import took 0.006021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.053238 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab
+  artifactKey: Guid(a84b4120211350c43aa398a82f6c6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab using Guid(a84b4120211350c43aa398a82f6c6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b2bf7e58807722ab742a61fde07964') in 0.003116 seconds 
+  Import took 0.006307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274461 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Corridor_Corner.prefab
+  artifactKey: Guid(3272338b3af5af543be57fabe6120983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Corridor_Corner.prefab using Guid(3272338b3af5af543be57fabe6120983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546d9b29397182bfa823d1bc286e3018') in 0.312376 seconds 
+  Import took 0.317398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Room_Big.prefab
+  artifactKey: Guid(b63a6ac70f02c5a40b968781f6d5b57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Room_Big.prefab using Guid(b63a6ac70f02c5a40b968781f6d5b57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d38e6c5bf08e129e77ea8b84fb841a') in 0.024066 seconds 
+  Import took 0.027378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Room_01.prefab
+  artifactKey: Guid(e74d3aa3601632946b6084f189714136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Room_01.prefab using Guid(e74d3aa3601632946b6084f189714136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2242240eef2150e8d848a83bf661c377') in 0.022800 seconds 
+  Import took 0.026139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Corridor_Joint.prefab
+  artifactKey: Guid(bbed235af7182284dbd1847f47029fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Corridor_Joint.prefab using Guid(bbed235af7182284dbd1847f47029fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ca1d90518511603d12c1e3af6ea761') in 0.016099 seconds 
+  Import took 0.019202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Room_Small.prefab
+  artifactKey: Guid(a68ab25f011a3e84d9e3e7a8832599d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Room_Small.prefab using Guid(a68ab25f011a3e84d9e3e7a8832599d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545a79ca3b55db3a0aba1d637dd89dd7') in 0.017436 seconds 
+  Import took 0.020567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Room_02.prefab
+  artifactKey: Guid(8a2c209ffaf74c34c8ca2ad1dc11543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Room_02.prefab using Guid(8a2c209ffaf74c34c8ca2ad1dc11543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7e5fe77ec572aab099002486f67992') in 0.022305 seconds 
+  Import took 0.025845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/PC_Set.prefab
+  artifactKey: Guid(f1a6eb82d2368ea43b3baab7edb33cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/PC_Set.prefab using Guid(f1a6eb82d2368ea43b3baab7edb33cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0d20c37d7a6ccf24d16c6bd8b9a8d0') in 0.016749 seconds 
+  Import took 0.019884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Corridor_Long.prefab
+  artifactKey: Guid(d81a3094bcd74ad4bae89014f92b7861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/NestedPrefab/Corridor_Long.prefab using Guid(d81a3094bcd74ad4bae89014f92b7861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36aba7027506876e91cb182c337c407') in 0.016278 seconds 
+  Import took 0.019472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.306234 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props
+  artifactKey: Guid(74b1535eac1f0c245bde3a0e43662cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props using Guid(74b1535eac1f0c245bde3a0e43662cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b059159b2cde71a9bba923a81fbfaf0b') in 0.002926 seconds 
+  Import took 0.006022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063083 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/AirDuct_01_Corner_snaps001.prefab
+  artifactKey: Guid(d296783be175704488ac6627ca10202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/AirDuct_01_Corner_snaps001.prefab using Guid(d296783be175704488ac6627ca10202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b11b206f2ae6cf0a5a5a153d9b66811') in 0.011715 seconds 
+  Import took 0.014919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Keyboard_01_snaps001.prefab
+  artifactKey: Guid(1ae56147953582b4280b244e7064132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Keyboard_01_snaps001.prefab using Guid(1ae56147953582b4280b244e7064132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5671210bb4f7dc3c4e46e18ae79babf') in 0.010906 seconds 
+  Import took 0.013835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Monitor_02_snaps001.prefab
+  artifactKey: Guid(75d11b34eb0b1f845ae47ec3b97a5e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Monitor_02_snaps001.prefab using Guid(75d11b34eb0b1f845ae47ec3b97a5e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b4c64c248336cb158c7939eb358e0f') in 0.010694 seconds 
+  Import took 0.013717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Desklamp_01_snaps001.prefab
+  artifactKey: Guid(af66cb781f2abe44abe97b567b10153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Desklamp_01_snaps001.prefab using Guid(af66cb781f2abe44abe97b567b10153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb71953612f284b2644673f21fbbbd5') in 0.012315 seconds 
+  Import took 0.015702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PotPlant_02_snaps001.prefab
+  artifactKey: Guid(09bbc701d5952e2479584092953ee7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PotPlant_02_snaps001.prefab using Guid(09bbc701d5952e2479584092953ee7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ba1df7c9b165d4faf91a6d3fe4b8f0') in 0.012590 seconds 
+  Import took 0.015649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Computer_01_snaps001.prefab
+  artifactKey: Guid(5bda03e6c90ba284f859d8e2c3a027fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Computer_01_snaps001.prefab using Guid(5bda03e6c90ba284f859d8e2c3a027fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8a4c22d6e135b7e479f3d4bd188838') in 0.010627 seconds 
+  Import took 0.013766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Monitor_01_snaps001.prefab
+  artifactKey: Guid(a5a328fd0bdbc82418c900ec0e290bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Monitor_01_snaps001.prefab using Guid(a5a328fd0bdbc82418c900ec0e290bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1c8e11ac5e67821aa73979d8ad3d03') in 0.011055 seconds 
+  Import took 0.014250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Shelf_01_snaps001.prefab
+  artifactKey: Guid(ef0197a78830ab049b08a820ea60c3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Shelf_01_snaps001.prefab using Guid(ef0197a78830ab049b08a820ea60c3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0fc4763cc1b548646e41a3f5797669') in 0.011083 seconds 
+  Import took 0.014356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/ComputerDesk_01_snaps001.prefab
+  artifactKey: Guid(1311ead9e03725440bcd145a4ddd5518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/ComputerDesk_01_snaps001.prefab using Guid(1311ead9e03725440bcd145a4ddd5518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86ac905636b8435c8900a2db355d4b7') in 0.011260 seconds 
+  Import took 0.014298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Cabinet_04_snaps001.prefab
+  artifactKey: Guid(6ceca4d01ca8690498194787a589d0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Cabinet_04_snaps001.prefab using Guid(6ceca4d01ca8690498194787a589d0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648a85efb0d8ffc2ad0e3acd680046f9') in 0.010534 seconds 
+  Import took 0.013560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/CeilingLights_01_snaps001.prefab
+  artifactKey: Guid(83703d1837d1d4d4fa3dfdcb40a2c372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/CeilingLights_01_snaps001.prefab using Guid(83703d1837d1d4d4fa3dfdcb40a2c372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39580f0f3cc0907d3cf5aab3cab0e3de') in 0.009945 seconds 
+  Import took 0.012970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/CoffeeMug_01_snaps001.prefab
+  artifactKey: Guid(8c8b047a2c0cdf442a97847b15e17227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/CoffeeMug_01_snaps001.prefab using Guid(8c8b047a2c0cdf442a97847b15e17227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc026d5db7baf46a2e6c2995a8a18cab') in 0.009922 seconds 
+  Import took 0.012972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PenHolder_01_snaps001.prefab
+  artifactKey: Guid(0547e5926fd68ea4993c6af3be8769e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PenHolder_01_snaps001.prefab using Guid(0547e5926fd68ea4993c6af3be8769e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d1e00e371d4b66fa81935d6b9aea5b') in 0.010486 seconds 
+  Import took 0.013469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Cabinet_03_snaps001.prefab
+  artifactKey: Guid(52e174db68e69754b9b080b25a308977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Cabinet_03_snaps001.prefab using Guid(52e174db68e69754b9b080b25a308977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7e4f7a19a661d1663f652f93a292c9') in 0.011906 seconds 
+  Import took 0.014990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Shelf_03_snaps001.prefab
+  artifactKey: Guid(b0b25d39ee8d29546bcaaeb1b217bdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Shelf_03_snaps001.prefab using Guid(b0b25d39ee8d29546bcaaeb1b217bdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffce1b361230a25c3c3b7deaaed8a5ef') in 0.009983 seconds 
+  Import took 0.013119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/AirDuct_01_snaps001.prefab
+  artifactKey: Guid(f8531c0160b625746812ddd8f8a3f1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/AirDuct_01_snaps001.prefab using Guid(f8531c0160b625746812ddd8f8a3f1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f5145b3e06048665d131a2297dc1de') in 0.010569 seconds 
+  Import took 0.013698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PaperTray_01_snaps001.prefab
+  artifactKey: Guid(e8d3a72b8c8548f469a0a533f1fbe295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PaperTray_01_snaps001.prefab using Guid(e8d3a72b8c8548f469a0a533f1fbe295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d64d8df0c149edfc14596e42f3549ed') in 0.009914 seconds 
+  Import took 0.012905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/ComputerDesk_02_snaps001.prefab
+  artifactKey: Guid(d11695e43d89ff24bb36886a4c039c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/ComputerDesk_02_snaps001.prefab using Guid(d11695e43d89ff24bb36886a4c039c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ff46d29edfb2c3b086f8bef9aee6b4') in 0.010957 seconds 
+  Import took 0.013984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PaperTray_02_snaps001.prefab
+  artifactKey: Guid(106e0f600ce0361469ff2428db6b7abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PaperTray_02_snaps001.prefab using Guid(106e0f600ce0361469ff2428db6b7abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4119684243f83e3076e89902f63c60e6') in 0.009841 seconds 
+  Import took 0.012867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Shelf_04_snaps001.prefab
+  artifactKey: Guid(9207d796a4eef5c4fb42153a24ebf588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Shelf_04_snaps001.prefab using Guid(9207d796a4eef5c4fb42153a24ebf588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0771324d6db5729dbbd17883aac705') in 0.011136 seconds 
+  Import took 0.014132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Printer01_snaps001.prefab
+  artifactKey: Guid(91449bd0e8b9dce41803f9c79a993462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Printer01_snaps001.prefab using Guid(91449bd0e8b9dce41803f9c79a993462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07957d4d2a44eca4ac85c2b912c040e') in 0.010915 seconds 
+  Import took 0.013944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/CeilingLights_03_snaps001.prefab
+  artifactKey: Guid(4231048744ce2ba41a406957740cf383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/CeilingLights_03_snaps001.prefab using Guid(4231048744ce2ba41a406957740cf383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93332bf6d55b6a141f841e520f0f3f2f') in 0.010217 seconds 
+  Import took 0.013255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Cabinet_01_snaps001.prefab
+  artifactKey: Guid(14e4e479b0ada4d49bfe66d6f080bb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Cabinet_01_snaps001.prefab using Guid(14e4e479b0ada4d49bfe66d6f080bb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86f5096c952e641235bd9e88e4c693a') in 0.010515 seconds 
+  Import took 0.013560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Cabinet_02_snaps001.prefab
+  artifactKey: Guid(eab9a1e97bf14904698f6ed18fd7e3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Cabinet_02_snaps001.prefab using Guid(eab9a1e97bf14904698f6ed18fd7e3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525970c0dca60c54031b3089f40cd138') in 0.010773 seconds 
+  Import took 0.013764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Laptop_01_snaps001.prefab
+  artifactKey: Guid(88cbb557f01af264c8417bbd28ff33c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Laptop_01_snaps001.prefab using Guid(88cbb557f01af264c8417bbd28ff33c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7db32ce2fb47050c95c45e29355f61') in 0.011168 seconds 
+  Import took 0.014221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PotPlant_01_snaps001.prefab
+  artifactKey: Guid(7e4d0f164b07d6045919c269526fcd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PotPlant_01_snaps001.prefab using Guid(7e4d0f164b07d6045919c269526fcd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777761060781fb603af09e349a500122') in 0.011157 seconds 
+  Import took 0.014191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/CeilingLights_02_snaps001.prefab
+  artifactKey: Guid(79a341f0ed938f14599ea1ecb9abac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/CeilingLights_02_snaps001.prefab using Guid(79a341f0ed938f14599ea1ecb9abac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08eb1d27100edf68e36f1b82760f02b6') in 0.010664 seconds 
+  Import took 0.013633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Shelf_02_snaps001.prefab
+  artifactKey: Guid(cdc15feda7052534a82cd0a14afc130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Shelf_02_snaps001.prefab using Guid(cdc15feda7052534a82cd0a14afc130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f79893f0369d675083e87b8f7654608') in 0.011620 seconds 
+  Import took 0.014664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/StairCase_01_snaps001.prefab
+  artifactKey: Guid(36d22ed5102e16246b559668ee32f0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/StairCase_01_snaps001.prefab using Guid(36d22ed5102e16246b559668ee32f0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bfafe94c17995495854b371ceca5f8') in 0.011343 seconds 
+  Import took 0.014680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/OfficeChair_01_snaps001.prefab
+  artifactKey: Guid(247e5b33a1b1dba43a82e14ad7191756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/OfficeChair_01_snaps001.prefab using Guid(247e5b33a1b1dba43a82e14ad7191756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4961491a2f272d0a7b5bea22971c5c00') in 0.013400 seconds 
+  Import took 0.016857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.101640 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD
+  artifactKey: Guid(5ce7768fe1be7a5468fff32e6bb0aea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD using Guid(5ce7768fe1be7a5468fff32e6bb0aea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51c9b513d2c550f56fd6c00884295f2') in 0.003027 seconds 
+  Import took 0.006196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058351 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Classic_Ceiling_02_snaps001.prefab
+  artifactKey: Guid(52a315013fbd83d42b47ebada09e0329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Classic_Ceiling_02_snaps001.prefab using Guid(52a315013fbd83d42b47ebada09e0329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01acea294b184f88052cbc77c9497901') in 0.011846 seconds 
+  Import took 0.015460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Wall_4m_snaps001.prefab
+  artifactKey: Guid(cd6649c2928f310498660dcff07705ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Wall_4m_snaps001.prefab using Guid(cd6649c2928f310498660dcff07705ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46ac8fa49d1b9e03670c9f1073f7bfc') in 0.010087 seconds 
+  Import took 0.013079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Floor_03_snaps001.prefab
+  artifactKey: Guid(b3e1ae4b20d1a0845a32d4418535010b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Floor_03_snaps001.prefab using Guid(b3e1ae4b20d1a0845a32d4418535010b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f356b9ef1b46ee721a5713bdf618bb27') in 0.010076 seconds 
+  Import took 0.013116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_02_L_4m_snaps001.prefab
+  artifactKey: Guid(4d057e6b0c2f0b3438a341df00052ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_02_L_4m_snaps001.prefab using Guid(4d057e6b0c2f0b3438a341df00052ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52328571de768176a2caf96a2a9f6eab') in 0.010906 seconds 
+  Import took 0.013926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallWindowFrame_03_4m_snaps001.prefab
+  artifactKey: Guid(462709b1a194d414592da88cad9c14df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallWindowFrame_03_4m_snaps001.prefab using Guid(462709b1a194d414592da88cad9c14df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f80dbf81e6004ae023955f4273901bf') in 0.011105 seconds 
+  Import took 0.014296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_01_M_4m_snaps001.prefab
+  artifactKey: Guid(9716301c1f7a89c4d8969bdeda62c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_01_M_4m_snaps001.prefab using Guid(9716301c1f7a89c4d8969bdeda62c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98dedb185f09c4b96accff65f68bfc6') in 0.009886 seconds 
+  Import took 0.012910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallDoubleDoors_01_4m_snaps001.prefab
+  artifactKey: Guid(bdd155ddbbfc71d4299eec62806c436a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallDoubleDoors_01_4m_snaps001.prefab using Guid(bdd155ddbbfc71d4299eec62806c436a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1d1ced5e091f1dd55f3b12933a1a1b') in 0.011069 seconds 
+  Import took 0.014087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_02_S_4m_snaps001.prefab
+  artifactKey: Guid(4f8052f790ef1c14ba9a6145196c3af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_02_S_4m_snaps001.prefab using Guid(4f8052f790ef1c14ba9a6145196c3af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6a1186301090d23379c4536571bc04') in 0.012021 seconds 
+  Import took 0.014950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Floor_Ceiling_03_snaps001.prefab
+  artifactKey: Guid(326806cc1d34f8b418df49602410fb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Floor_Ceiling_03_snaps001.prefab using Guid(326806cc1d34f8b418df49602410fb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3961d96a2223c179859084f4f1d7c3') in 0.009892 seconds 
+  Import took 0.012937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Classic_Floor_02_snaps001.prefab
+  artifactKey: Guid(a9a6af830b7d63749a8d69dc96895156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Classic_Floor_02_snaps001.prefab using Guid(a9a6af830b7d63749a8d69dc96895156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc158879deda8b6c4f02a8e2b0d4a8b3') in 0.011370 seconds 
+  Import took 0.014373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallDoubleDoorFrame_01_4m_snaps001.prefab
+  artifactKey: Guid(37721718c89802b4da02486a095a25a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallDoubleDoorFrame_01_4m_snaps001.prefab using Guid(37721718c89802b4da02486a095a25a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91613556350c523b1bd1f96e20dbfa5f') in 0.010274 seconds 
+  Import took 0.013260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_02_M_4m_snaps001.prefab
+  artifactKey: Guid(fd1ecae17bcbb3548ade769d7f5b1f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_02_M_4m_snaps001.prefab using Guid(fd1ecae17bcbb3548ade769d7f5b1f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556abfb2c1905ed546e35ae96c564aff') in 0.010459 seconds 
+  Import took 0.013562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Wall_HeightGapFill_snaps001.prefab
+  artifactKey: Guid(3b79e730b71b17f4c99286faf9074382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Wall_HeightGapFill_snaps001.prefab using Guid(3b79e730b71b17f4c99286faf9074382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67c930545b78ac6672bbedc3dba9158') in 0.010432 seconds 
+  Import took 0.013754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_01_S_4m_snaps001.prefab
+  artifactKey: Guid(3fe8bc8047e9fd7409031b22ecc28172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_01_S_4m_snaps001.prefab using Guid(3fe8bc8047e9fd7409031b22ecc28172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d39873d2c9496a4218a570ad0a576c6') in 0.011261 seconds 
+  Import took 0.014244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallDoorFrame_01_4m_snaps001.prefab
+  artifactKey: Guid(78872c40a8151204e84292b05cf458d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallDoorFrame_01_4m_snaps001.prefab using Guid(78872c40a8151204e84292b05cf458d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3acb18e49316159bade0ebf2113ee4') in 0.010550 seconds 
+  Import took 0.013529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallWindowFrame_02_4m_snaps001.prefab
+  artifactKey: Guid(5b41703580b9f54448d1e4fdbbf7efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallWindowFrame_02_4m_snaps001.prefab using Guid(5b41703580b9f54448d1e4fdbbf7efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c0b8714360ad596f6eb1905e01ccea') in 0.011672 seconds 
+  Import took 0.014863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallWindowFrame_01_4m_snaps001.prefab
+  artifactKey: Guid(0b7c811c7ab4ad744a5a8dec4eb06d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallWindowFrame_01_4m_snaps001.prefab using Guid(0b7c811c7ab4ad744a5a8dec4eb06d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36990a8f069d58b305c24a5f02853b19') in 0.011953 seconds 
+  Import took 0.015538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_01_L_4m_snaps001.prefab
+  artifactKey: Guid(60c2015a6316cec40bf8959981f04bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Pillar_01_L_4m_snaps001.prefab using Guid(60c2015a6316cec40bf8959981f04bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9faa1de39e18c81dad88efc19d499ea') in 0.011848 seconds 
+  Import took 0.015195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallDoor_01_4m_snaps001.prefab
+  artifactKey: Guid(cfdbdef0dbf22c44a837e3c9209db83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_WallDoor_01_4m_snaps001.prefab using Guid(cfdbdef0dbf22c44a837e3c9209db83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83d9378d625af64917b6625e2cbee50') in 0.011994 seconds 
+  Import took 0.015047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Wall_Corner_4m_snaps001.prefab
+  artifactKey: Guid(5a02e34e0575a924d810efcd291923c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Wall_Corner_4m_snaps001.prefab using Guid(5a02e34e0575a924d810efcd291923c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ce21e810a8a0a65c04aee7bd67af26') in 0.014041 seconds 
+  Import took 0.017080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/StairCase_01_4m_snaps001.prefab
+  artifactKey: Guid(5f52a5120f1de6d4b8a490f2646760f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/StairCase_01_4m_snaps001.prefab using Guid(5f52a5120f1de6d4b8a490f2646760f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0791da7de201923b79f56847d0d63f0b') in 0.010730 seconds 
+  Import took 0.013761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Ceiling_01_snaps001.prefab
+  artifactKey: Guid(bd24722836be19f498fbdddf91572e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Ceiling_01_snaps001.prefab using Guid(bd24722836be19f498fbdddf91572e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233e58edf5497031737d0f3ab16a8529') in 0.010265 seconds 
+  Import took 0.013253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Wall_Joint_4m_snaps001.prefab
+  artifactKey: Guid(e1b1bc960ce75964bbcbef5953f67ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Neo_Wall_Joint_4m_snaps001.prefab using Guid(e1b1bc960ce75964bbcbef5953f67ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e90b077b4b7a56635c6d3e69f7f376') in 0.010410 seconds 
+  Import took 0.013440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.368319 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Classic_Floor_02_snaps001.prefab
+  artifactKey: Guid(a9a6af830b7d63749a8d69dc96895156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Classic_Floor_02_snaps001.prefab using Guid(a9a6af830b7d63749a8d69dc96895156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9f45d916e1196205ff3341f218001a') in 0.014787 seconds 
+  Import took 0.019116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.403618 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Classic_Floor_02_snaps001.prefab
+  artifactKey: Guid(a9a6af830b7d63749a8d69dc96895156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Classic_Floor_02_snaps001.prefab using Guid(a9a6af830b7d63749a8d69dc96895156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f7df88bfd305efbb10a4f185a27b93') in 0.011553 seconds 
+  Import took 0.014939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.442463 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Classic_Floor_02_snaps001.prefab
+  artifactKey: Guid(a9a6af830b7d63749a8d69dc96895156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Classic_Floor_02_snaps001.prefab using Guid(a9a6af830b7d63749a8d69dc96895156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d39500fb3b36a2dc28bd2ab77a5c04') in 0.010912 seconds 
+  Import took 0.014596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 905.759006 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure
+  artifactKey: Guid(020ff81d9aab09e47aebe035db40f04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure using Guid(020ff81d9aab09e47aebe035db40f04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8b3f656916b538e290da32788d7b2c') in 0.002921 seconds 
+  Import took 0.006252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752662 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls
+  artifactKey: Guid(0fcbcd8f4eba7af499ac988117c0d64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls using Guid(0fcbcd8f4eba7af499ac988117c0d64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99eda81f483ee7cb56a94d29797b7da3') in 0.002925 seconds 
+  Import took 0.006039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.303609 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_Wall_Corner_snaps001.prefab
+  artifactKey: Guid(2dd6a41bf3754ca45a0c700ba7da1771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_Wall_Corner_snaps001.prefab using Guid(2dd6a41bf3754ca45a0c700ba7da1771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67117292914286dbba5a5cade786bf55') in 0.013460 seconds 
+  Import took 0.018060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindowFrame_03_snaps001.prefab
+  artifactKey: Guid(ba119e6cbefaaa641aeef16f2b469789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindowFrame_03_snaps001.prefab using Guid(ba119e6cbefaaa641aeef16f2b469789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f790e179386569aba105c1c35d14b5') in 0.011677 seconds 
+  Import took 0.014547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallWindow_02_snaps001.prefab
+  artifactKey: Guid(37a8ccf3c573ef34d8b175f6fe0e578b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallWindow_02_snaps001.prefab using Guid(37a8ccf3c573ef34d8b175f6fe0e578b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdaf396d504f6dbba47a01c8e1dff71') in 0.012853 seconds 
+  Import took 0.015894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_Wall_Corner_snaps001.prefab
+  artifactKey: Guid(7314c015f88e565459fd79bfb3d7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_Wall_Corner_snaps001.prefab using Guid(7314c015f88e565459fd79bfb3d7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2357c5bf1e3a004aa5513d4e3fde4b20') in 0.010288 seconds 
+  Import took 0.013605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallWindow_01_snaps001.prefab
+  artifactKey: Guid(b171e372a9c9ca84b9633f9e64b653c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallWindow_01_snaps001.prefab using Guid(b171e372a9c9ca84b9633f9e64b653c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e04455cb8e0232a456b4314d9b5151') in 0.012456 seconds 
+  Import took 0.015866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_Wall_snaps001.prefab
+  artifactKey: Guid(c73151b2c863d094393f47d50c325553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_Wall_snaps001.prefab using Guid(c73151b2c863d094393f47d50c325553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70fd92e7b06a48e6db8bf993865eeb1') in 0.010399 seconds 
+  Import took 0.013504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallDoor_01_snaps001.prefab
+  artifactKey: Guid(931d1b5cc52936e46b14c0707781d2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallDoor_01_snaps001.prefab using Guid(931d1b5cc52936e46b14c0707781d2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e36635bb4930e1c486c5f1954c62f7') in 0.011009 seconds 
+  Import took 0.014020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallWindowFrame_01_snaps001.prefab
+  artifactKey: Guid(968483ee22b5faa4fbc63a7da9069c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallWindowFrame_01_snaps001.prefab using Guid(968483ee22b5faa4fbc63a7da9069c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbf63ec50c6d1b0bbdd2416d2d09402') in 0.010155 seconds 
+  Import took 0.013224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallDoubleDoorFrame_snaps001.prefab
+  artifactKey: Guid(da357e76d65d042449b88c33e35ff8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallDoubleDoorFrame_snaps001.prefab using Guid(da357e76d65d042449b88c33e35ff8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a44a1fdaea5947f39201b60e39cc66') in 0.010954 seconds 
+  Import took 0.013910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallDoorFrame_01_snaps001.prefab
+  artifactKey: Guid(6f8e2bbc0740f60409afee2840eebd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallDoorFrame_01_snaps001.prefab using Guid(6f8e2bbc0740f60409afee2840eebd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546733b0a9a9405f9a919b599f36162f') in 0.010956 seconds 
+  Import took 0.013950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallDoorFrame_02_snaps001.prefab
+  artifactKey: Guid(7843b542e9ef1324fa4cadf54f39397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallDoorFrame_02_snaps001.prefab using Guid(7843b542e9ef1324fa4cadf54f39397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca60c1947e6ece8919e516e39bca9f3f') in 0.010712 seconds 
+  Import took 0.013720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_Wall_snaps001.prefab
+  artifactKey: Guid(aef7c887e1f419b45b3e480ff017b110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_Wall_snaps001.prefab using Guid(aef7c887e1f419b45b3e480ff017b110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6f4cf25e2e37ed4b82f6e6ee0b1fb7') in 0.010433 seconds 
+  Import took 0.013398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindowFrame_01_snaps001.prefab
+  artifactKey: Guid(a6cfa23a67009a041bb5b424e08f6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindowFrame_01_snaps001.prefab using Guid(a6cfa23a67009a041bb5b424e08f6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1519be9a0eb432115e1c12906033876') in 0.010695 seconds 
+  Import took 0.013700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindowFrame_02_snaps001.prefab
+  artifactKey: Guid(a55ec49cd75394148809f19cae676988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindowFrame_02_snaps001.prefab using Guid(a55ec49cd75394148809f19cae676988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a026137fbfd2b0f274448643eda195c0') in 0.011492 seconds 
+  Import took 0.014780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Partition_Wall_Corner_snaps001.prefab
+  artifactKey: Guid(efe8d45bdcec50f4b986a04711a3ce26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Partition_Wall_Corner_snaps001.prefab using Guid(efe8d45bdcec50f4b986a04711a3ce26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24860cc604130a4635ec6e42dc368c68') in 0.011635 seconds 
+  Import took 0.014687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Partition_Wall_snaps001.prefab
+  artifactKey: Guid(c82ff6aa1a9d4d442bb9d9e2c82a85ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Partition_Wall_snaps001.prefab using Guid(c82ff6aa1a9d4d442bb9d9e2c82a85ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9798887b8e0fe2aaae63fbd482a7fdd3') in 0.012010 seconds 
+  Import took 0.015603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_Wall_Joint_snaps001.prefab
+  artifactKey: Guid(245acdad429fd1444a3ccf79254593b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_Wall_Joint_snaps001.prefab using Guid(245acdad429fd1444a3ccf79254593b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e652d7dea1560c7ae8925f8d35b497c4') in 0.010994 seconds 
+  Import took 0.014169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_Wall_Joint_snaps001.prefab
+  artifactKey: Guid(cf521d014e4d5e64da2989f0bb3c82f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_Wall_Joint_snaps001.prefab using Guid(cf521d014e4d5e64da2989f0bb3c82f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06de81dd12e638bee78422f0826edec7') in 0.012981 seconds 
+  Import took 0.016091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallWindowFrame_02_snaps001.prefab
+  artifactKey: Guid(19cb042b07d2f2e4585682c3d6afb7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallWindowFrame_02_snaps001.prefab using Guid(19cb042b07d2f2e4585682c3d6afb7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6959a0e4a1a7f4986c18ca84412adaa2') in 0.010802 seconds 
+  Import took 0.014075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindow_02_snaps001.prefab
+  artifactKey: Guid(0d6466bed683c6a419f3982208f39489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindow_02_snaps001.prefab using Guid(0d6466bed683c6a419f3982208f39489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebf50097014ff7b7d86247443d093c7') in 0.011408 seconds 
+  Import took 0.014419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallDoubleDoorFrame_01_snaps001.prefab
+  artifactKey: Guid(db44937cbec05d74b81e4013f67615ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallDoubleDoorFrame_01_snaps001.prefab using Guid(db44937cbec05d74b81e4013f67615ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28c16ad619c8a2cd453726112d4856d') in 0.010189 seconds 
+  Import took 0.013210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindow_03_snaps001.prefab
+  artifactKey: Guid(ad9ac39afd89d5b4eb630c125e167a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindow_03_snaps001.prefab using Guid(ad9ac39afd89d5b4eb630c125e167a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4868f589370addc533e960982ba3d3') in 0.011600 seconds 
+  Import took 0.014936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallDoorFrame_01_snaps001.prefab
+  artifactKey: Guid(e8f5a146fe0fe524f9bd393d3573106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallDoorFrame_01_snaps001.prefab using Guid(e8f5a146fe0fe524f9bd393d3573106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f935a8c29f1295edad9788fda0ad4b2') in 0.012906 seconds 
+  Import took 0.016016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallDoor_01_snaps001.prefab
+  artifactKey: Guid(c19d995d1197f6644b00037295f526de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallDoor_01_snaps001.prefab using Guid(c19d995d1197f6644b00037295f526de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692f6d505ac4174fa1a71d660266c1ca') in 0.011314 seconds 
+  Import took 0.014425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallDoubleDoors_01_snaps001.prefab
+  artifactKey: Guid(d6864f78596014a4a9d36262c869812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallDoubleDoors_01_snaps001.prefab using Guid(d6864f78596014a4a9d36262c869812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376422671650a10eff077f66104a62de') in 0.011261 seconds 
+  Import took 0.014329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallDoubleDoors_01_snaps001.prefab
+  artifactKey: Guid(3cd7bc5de3ff05f49ab503add0f0f2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallDoubleDoors_01_snaps001.prefab using Guid(3cd7bc5de3ff05f49ab503add0f0f2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483a156f0a25512453bc463d10cd4a4d') in 0.011631 seconds 
+  Import took 0.014715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindow_01_snaps001.prefab
+  artifactKey: Guid(bfa35daa926468a47bde7a1a04045305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Neo_WallWindow_01_snaps001.prefab using Guid(bfa35daa926468a47bde7a1a04045305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc01ab70b9f3da5ba8bcefefcff1232') in 0.010716 seconds 
+  Import took 0.013737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallWindow_03_snaps001.prefab
+  artifactKey: Guid(f816c7b96377bf74dab570a6ffd7ccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Walls/Classic_WallWindow_03_snaps001.prefab using Guid(f816c7b96377bf74dab570a6ffd7ccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956a8125186e5804013e609905832b42') in 0.012244 seconds 
+  Import took 0.015260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.058841 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows
+  artifactKey: Guid(5e11f01ed3fa81b4489d463333dbb8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows using Guid(5e11f01ed3fa81b4489d463333dbb8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3704f45913c8251bfc48a9f8d1e45751') in 0.002981 seconds 
+  Import took 0.006181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097397 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Classic_Door_01_snaps001.prefab
+  artifactKey: Guid(bddc1c2bd8f610b4a9602b0663b4823e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Classic_Door_01_snaps001.prefab using Guid(bddc1c2bd8f610b4a9602b0663b4823e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba6ddae3fd42574453d7b2ca4a0199d') in 0.014036 seconds 
+  Import took 0.018937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Classic_DoubleDoor_01_snaps001.prefab
+  artifactKey: Guid(d82bc42a44b50814b814b25caf68fa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Classic_DoubleDoor_01_snaps001.prefab using Guid(d82bc42a44b50814b814b25caf68fa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1806703c0740f5cfb395fdce715b39ce') in 0.017412 seconds 
+  Import took 0.020504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Classic_Window_02_snaps001.prefab
+  artifactKey: Guid(5cfeca0fba4439343aa66e44fe5a9767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Classic_Window_02_snaps001.prefab using Guid(5cfeca0fba4439343aa66e44fe5a9767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e86ea098bdeb4b9d4aacca4cec946fa') in 0.010197 seconds 
+  Import took 0.013262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_Window_04_snaps001.prefab
+  artifactKey: Guid(7185e7270a77b1b4587cedd0415953f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_Window_04_snaps001.prefab using Guid(7185e7270a77b1b4587cedd0415953f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f36d7f1df38598eccee5853067bae20') in 0.010001 seconds 
+  Import took 0.013111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_Window_02_snaps001.prefab
+  artifactKey: Guid(fefd0a6fc0e4de748b02c804f346d04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_Window_02_snaps001.prefab using Guid(fefd0a6fc0e4de748b02c804f346d04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b17aed0e87b5e50e7faeba9c6d624ee') in 0.010076 seconds 
+  Import took 0.013121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_Window_03_snaps001.prefab
+  artifactKey: Guid(6304a01768bae4e468526e3fbe4e197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_Window_03_snaps001.prefab using Guid(6304a01768bae4e468526e3fbe4e197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd478f16d90bf74409a74415053b92b0') in 0.010358 seconds 
+  Import took 0.013467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_DoubleDoor_01_snaps001.prefab
+  artifactKey: Guid(b6ab41f6f3dff8c4f856c726c6bd1f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_DoubleDoor_01_snaps001.prefab using Guid(b6ab41f6f3dff8c4f856c726c6bd1f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c7f522c25077a2b178fa02eb153249') in 0.010137 seconds 
+  Import took 0.013215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Classic_Window_03_snaps001.prefab
+  artifactKey: Guid(2ad26ea27b3cfdd4d9ad9f7c8528df94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Classic_Window_03_snaps001.prefab using Guid(2ad26ea27b3cfdd4d9ad9f7c8528df94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096e0055c0fd3cd3931f5a10a75fd85e') in 0.010622 seconds 
+  Import took 0.013912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_Window_01_snaps001.prefab
+  artifactKey: Guid(bffc3aa20b81e244687b7d6c4451c7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_Window_01_snaps001.prefab using Guid(bffc3aa20b81e244687b7d6c4451c7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f8a7afde12b1ffadf20732286bc8fa') in 0.011606 seconds 
+  Import took 0.014652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Classic_Window_01_snaps001.prefab
+  artifactKey: Guid(285813f2f8183d548b81784d33f4ee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Classic_Window_01_snaps001.prefab using Guid(285813f2f8183d548b81784d33f4ee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7d761b35eb9cada657beae69d6b47b') in 0.014931 seconds 
+  Import took 0.017988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_Door_01_snaps001.prefab
+  artifactKey: Guid(548b55d3e2f945942be6ac7612199877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Neo_Door_01_snaps001.prefab using Guid(548b55d3e2f945942be6ac7612199877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faedc42fcf388e583a8b165e52fe96aa') in 0.010063 seconds 
+  Import took 0.013167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.137755 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings
+  artifactKey: Guid(91b44f28efe17844892c4b18d1e6f2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings using Guid(91b44f28efe17844892c4b18d1e6f2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7a75d484fe5d49fe18a7da2873b5aa') in 0.002936 seconds 
+  Import took 0.006091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097266 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Classic_Ceiling_01_snaps001.prefab
+  artifactKey: Guid(98ed76314c8d820429b556f5a446e393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Classic_Ceiling_01_snaps001.prefab using Guid(98ed76314c8d820429b556f5a446e393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5de9cdabe42e6ff215c33eada63f40d') in 0.015486 seconds 
+  Import took 0.020392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Neo_Ceiling_02_snaps001.prefab
+  artifactKey: Guid(293e268728ae1704b931bbef9043c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Neo_Ceiling_02_snaps001.prefab using Guid(293e268728ae1704b931bbef9043c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ea6ff44e635aa66b3523d2bb328d09') in 0.009880 seconds 
+  Import took 0.012823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Neo_Floor_02_snaps001.prefab
+  artifactKey: Guid(9b1b38ad56a221f4bb6ad963a1996883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Neo_Floor_02_snaps001.prefab using Guid(9b1b38ad56a221f4bb6ad963a1996883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e760bc69048a7b99438f02d4cc5703') in 0.012569 seconds 
+  Import took 0.016870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Neo_Floor_Ceiling_02_snaps001.prefab
+  artifactKey: Guid(80a50c557bdf28d4bab26b2e0797562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Neo_Floor_Ceiling_02_snaps001.prefab using Guid(80a50c557bdf28d4bab26b2e0797562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c9097de481029062c3f5284e7a06e0') in 0.010198 seconds 
+  Import took 0.013300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Classic_Floor_01_snaps001.prefab
+  artifactKey: Guid(d70a27546822c004b81f0b6ce1dda5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Classic_Floor_01_snaps001.prefab using Guid(d70a27546822c004b81f0b6ce1dda5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e31fc7aa5905cd53d9405e305f0924') in 0.011490 seconds 
+  Import took 0.014562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Neo_Floor_01_snaps001.prefab
+  artifactKey: Guid(238ac8785f3f5b947941aa4fd6e0ce86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Floors_Ceilings/Neo_Floor_01_snaps001.prefab using Guid(238ac8785f3f5b947941aa4fd6e0ce86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8e3f6f47c8829f1a538d123d31c6d2') in 0.010004 seconds 
+  Import took 0.013290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.202854 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars
+  artifactKey: Guid(50630e63e3ac12742a93c1234c1b0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars using Guid(50630e63e3ac12742a93c1234c1b0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac331f802091fd1cae5e89584bbcb48c') in 0.002883 seconds 
+  Import took 0.005988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072932 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_01_L_snaps001.prefab
+  artifactKey: Guid(f243ada299246cb4abf4b420cd5bb818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_01_L_snaps001.prefab using Guid(f243ada299246cb4abf4b420cd5bb818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8300772961b346e36b9fb8a03cec8db6') in 0.010162 seconds 
+  Import took 0.013480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_02_S_snaps001.prefab
+  artifactKey: Guid(21b6cde9dbed3ae40a6a352e6c11be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_02_S_snaps001.prefab using Guid(21b6cde9dbed3ae40a6a352e6c11be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fab8c970f3f23b5d39bae9c7fa691c') in 0.014821 seconds 
+  Import took 0.017801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_02_L_snaps001.prefab
+  artifactKey: Guid(7c1043cd013f6844fb56528826519a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_02_L_snaps001.prefab using Guid(7c1043cd013f6844fb56528826519a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1d6cf0860ec110d9c90ef47e53d3fb') in 0.010127 seconds 
+  Import took 0.013136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_01_S_snaps001.prefab
+  artifactKey: Guid(4c7105b1972188a4d9e81c7386f0ee8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_01_S_snaps001.prefab using Guid(4c7105b1972188a4d9e81c7386f0ee8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61eddd1db04cc2b17a2d703aa52ce4c') in 0.011189 seconds 
+  Import took 0.014522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_01_M_snaps001.prefab
+  artifactKey: Guid(9aaa6b39cf6e5464c908e1e606b95db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_01_M_snaps001.prefab using Guid(9aaa6b39cf6e5464c908e1e606b95db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9189f64a19a217c951d5585b8298ee33') in 0.010282 seconds 
+  Import took 0.013260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_02_M_snaps001.prefab
+  artifactKey: Guid(4fb6a4051572da44385745888391d285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_02_M_snaps001.prefab using Guid(4fb6a4051572da44385745888391d285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33891ebebbfb5ccb68077433057729a2') in 0.010878 seconds 
+  Import took 0.013923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_01_S_snaps001.prefab
+  artifactKey: Guid(4c7105b1972188a4d9e81c7386f0ee8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_01_S_snaps001.prefab using Guid(4c7105b1972188a4d9e81c7386f0ee8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61eddd1db04cc2b17a2d703aa52ce4c') in 0.009628 seconds 
+  Import took 0.012659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_02_M_snaps001.prefab
+  artifactKey: Guid(4fb6a4051572da44385745888391d285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Pillars/Neo_Pillar_02_M_snaps001.prefab using Guid(4fb6a4051572da44385745888391d285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33891ebebbfb5ccb68077433057729a2') in 0.012382 seconds 
+  Import took 0.015404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.283320 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials
+  artifactKey: Guid(4a41d4b189ff7d94b9ad69b7ee595a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials using Guid(4a41d4b189ff7d94b9ad69b7ee595a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302fee6253d4cfff61a9af4d27b5055c') in 0.002856 seconds 
+  Import took 0.005947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094974 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Black_snaps001.mat
+  artifactKey: Guid(8440f7c46cde87942a79d9125f40ae89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Black_snaps001.mat using Guid(8440f7c46cde87942a79d9125f40ae89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ee59bf2aa7df3e7ae9806973bfd7e7') in 0.039677 seconds 
+  Import took 0.045191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Brown_snaps001.mat
+  artifactKey: Guid(2c0bb951fb8a2e44a9fb35bc4af3d739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Brown_snaps001.mat using Guid(2c0bb951fb8a2e44a9fb35bc4af3d739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11f763757f5929e97fce2167e4f38e3') in 0.016803 seconds 
+  Import took 0.021328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DeepBlue_snaps001.mat
+  artifactKey: Guid(0311cbb0184a51845912c30ec478cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DeepBlue_snaps001.mat using Guid(0311cbb0184a51845912c30ec478cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0175de1811d2b5f7615a8f3f256672') in 0.009086 seconds 
+  Import took 0.012334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/White_snaps001.mat
+  artifactKey: Guid(4a11ac89ec3635a4b896556552983d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/White_snaps001.mat using Guid(4a11ac89ec3635a4b896556552983d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be55054befc4055b763ef221a764c60b') in 0.011063 seconds 
+  Import took 0.014134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat
+  artifactKey: Guid(8621dfcb3dbf229428e45425021e0875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat using Guid(8621dfcb3dbf229428e45425021e0875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5860b22c6e2ef17d247187a7c190961c') in 0.009291 seconds 
+  Import took 0.012424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DarkGray_snaps001.mat
+  artifactKey: Guid(15cb6b096bb78c7479c93c6e26153387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DarkGray_snaps001.mat using Guid(15cb6b096bb78c7479c93c6e26153387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862bf7e07cda818f75116972fe2075dd') in 0.008930 seconds 
+  Import took 0.011909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/BlueWindow_snaps001.mat
+  artifactKey: Guid(50e8d87218c9f9649975e35ca3232d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/BlueWindow_snaps001.mat using Guid(50e8d87218c9f9649975e35ca3232d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f95dd7500c27650e8b5dfba9a7f7e4') in 0.013646 seconds 
+  Import took 0.016523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/BrownDark_snaps001.mat
+  artifactKey: Guid(019b68caeea34ac4bb7e667c4f32c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/BrownDark_snaps001.mat using Guid(019b68caeea34ac4bb7e667c4f32c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99238036e2a9a1c30b9be2fee084848e') in 0.009495 seconds 
+  Import took 0.012613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Red_snaps001.mat
+  artifactKey: Guid(329e1b1722fe9c946999242edace2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Red_snaps001.mat using Guid(329e1b1722fe9c946999242edace2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec068091d078bf794d97bfdb45f37dc') in 0.009153 seconds 
+  Import took 0.012360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Green_snaps001.mat
+  artifactKey: Guid(cff86b3f8014a6e4babecc006d77e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Green_snaps001.mat using Guid(cff86b3f8014a6e4babecc006d77e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b458b26653cd3e950a9e3de00057d4') in 0.009492 seconds 
+  Import took 0.012454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/LightGray_snaps001.mat
+  artifactKey: Guid(ae2efeea9c901af48b6bb19d9981d5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/LightGray_snaps001.mat using Guid(ae2efeea9c901af48b6bb19d9981d5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1593f377ca021656980b74d8643fd424') in 0.009493 seconds 
+  Import took 0.012415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/GreenDark_snaps001.mat
+  artifactKey: Guid(6f5b522968a198d40a19799562c3eae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/GreenDark_snaps001.mat using Guid(6f5b522968a198d40a19799562c3eae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f2f4943a0e9fec8b8868cf0bd3b160') in 0.012970 seconds 
+  Import took 0.015963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/BrownLight_snaps001.mat
+  artifactKey: Guid(9dd3f5b3049028f4e948921f3bf87f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/BrownLight_snaps001.mat using Guid(9dd3f5b3049028f4e948921f3bf87f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f53db5db7c7d666b527a352114b17fa') in 0.009271 seconds 
+  Import took 0.012215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/UnusedFaces_snaps001.mat
+  artifactKey: Guid(3cb8172b4f393944295e6584397f2219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/UnusedFaces_snaps001.mat using Guid(3cb8172b4f393944295e6584397f2219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21523b3a1f248b298af9c95ae07af5d7') in 0.008953 seconds 
+  Import took 0.012068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.963884 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes
+  artifactKey: Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes using Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d88d3e5124eb2057e959bcb5f7a501a') in 0.002888 seconds 
+  Import took 0.006057 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1025ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 2.072700 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.766500 ms  DeleteObjects: 0.079000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 922.189873 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes
+  artifactKey: Guid(da8b9b6d8e4d3024da58ebde54245b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes using Guid(da8b9b6d8e4d3024da58ebde54245b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49556096f08ed8ec21eff508bb5be6ce') in 0.006214 seconds 
+  Import took 0.009580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes
+  artifactKey: Guid(da8b9b6d8e4d3024da58ebde54245b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes using Guid(da8b9b6d8e4d3024da58ebde54245b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49556096f08ed8ec21eff508bb5be6ce') in 0.002677 seconds 
+  Import took 0.005451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079690 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Classic_Door_01_snaps001.asset
+  artifactKey: Guid(35f1de9d25a6b314a9fe72a80dd93be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Classic_Door_01_snaps001.asset using Guid(35f1de9d25a6b314a9fe72a80dd93be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e2a33f01f180fe1868c5603467b7ec') in 0.083604 seconds 
+  Import took 0.086789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Classic_Window_02_snaps001.asset
+  artifactKey: Guid(fe6c34f730f2f03408bd3da5c93ccdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Classic_Window_02_snaps001.asset using Guid(fe6c34f730f2f03408bd3da5c93ccdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c81860a9810309c6096d51e58133f83') in 0.009822 seconds 
+  Import took 0.012777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Classic_DoubleDoor_01_snaps001.asset
+  artifactKey: Guid(6df3f66b80ffdb1438f5a4715501c357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Classic_DoubleDoor_01_snaps001.asset using Guid(6df3f66b80ffdb1438f5a4715501c357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54934ccb5dd0d32241fbdfa02c99500') in 0.011738 seconds 
+  Import took 0.014667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_Window_03_snaps001.asset
+  artifactKey: Guid(b80d39f21f126d34c9373521d81b47a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_Window_03_snaps001.asset using Guid(b80d39f21f126d34c9373521d81b47a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826f003887894560fe3ed53c1e8bcaeb') in 0.009482 seconds 
+  Import took 0.012689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_Window_02_snaps001.asset
+  artifactKey: Guid(08a41706c5b9ce347ad875b0ec025ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_Window_02_snaps001.asset using Guid(08a41706c5b9ce347ad875b0ec025ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e290d69a2319924b300155e1bf83b01') in 0.009301 seconds 
+  Import took 0.012388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Classic_Window_01_snaps001.asset
+  artifactKey: Guid(202be08c23bd4ed47baab4b4b81ff042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Classic_Window_01_snaps001.asset using Guid(202be08c23bd4ed47baab4b4b81ff042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c60f4071c3fab5863e8e21c27a80ca2') in 0.010691 seconds 
+  Import took 0.013732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_Window_01_snaps001.asset
+  artifactKey: Guid(ee7f7b9f1885c8f488e58455b7d67ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_Window_01_snaps001.asset using Guid(ee7f7b9f1885c8f488e58455b7d67ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c390340a4303e3db14e31fb45a09542') in 0.008875 seconds 
+  Import took 0.011817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_Window_04_snaps001.asset
+  artifactKey: Guid(a1186bcc9918c5946b20aaf49be3d621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_Window_04_snaps001.asset using Guid(a1186bcc9918c5946b20aaf49be3d621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5564e1ecafc28820fcd61a632aa387a') in 0.009153 seconds 
+  Import took 0.012159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Classic_Window_03_snaps001.asset
+  artifactKey: Guid(c26bd721c641a2347b59f66b61f83604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Classic_Window_03_snaps001.asset using Guid(c26bd721c641a2347b59f66b61f83604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c9c8a1ad8fa68c6450cd97769e1741') in 0.009709 seconds 
+  Import took 0.012649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_Door_01_snaps001.asset
+  artifactKey: Guid(01625494a6b2d354a9a6678c03bfbdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_Door_01_snaps001.asset using Guid(01625494a6b2d354a9a6678c03bfbdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd9b40783a0559cd58167f364730614') in 0.009142 seconds 
+  Import took 0.012108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_DoubleDoor_01_snaps001.asset
+  artifactKey: Guid(ede3571e32f58b1429591e1e12f534ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Structure/Doors_Windows/Meshes/Neo_DoubleDoor_01_snaps001.asset using Guid(ede3571e32f58b1429591e1e12f534ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7d37a4098cff8c18193d75e3d8363b') in 0.009297 seconds 
+  Import took 0.012391 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (802ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.7 MB.
+System memory in use after: 83.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 2.262000 ms (FindLiveObjects: 0.183900 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.950100 ms  DeleteObjects: 0.087600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
