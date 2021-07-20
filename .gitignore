@@ -10,25 +10,21 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-library/
 temp/
 obj/
 build/
 logs/
 memoryCaptures/
-Library/
 Temp/
 Obj/
 Build/
 Logs/
 MemoryCaptures/
-/library/
 /temp/
 /obj/
 /build/
 /logs/
 /memoryCaptures/
-/Library/
 /Temp/
 /Obj/
 /Build/
