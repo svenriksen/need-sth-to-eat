@@ -484,6 +484,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1106600481234236691, guid: 57f3e1fbdf622ff4a8fea63befa2283c, type: 3}
+--- !u!95 &466846702
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466846699}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 00ffe4251e4b61f4ab57fa3412cd3aa4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &524757144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f3ab3abdf0a8954b9270d1a324e1b7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSens: 300
+  mouseSens: 250
   playerBody: {fileID: 1342696140}
 --- !u!81 &1061282448
 AudioListener:
@@ -1390,7 +1409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1342696139}
-  speed: 5
+  speed: 3
   gravity: -9.81
   groundCheck: {fileID: 524757145}
   groundDistance: 0.4
