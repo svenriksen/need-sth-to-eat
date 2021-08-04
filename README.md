@@ -1,1 +1,2 @@
-# need-sth-to-eat
+# Our first horror game
+# Game made by Svenriksen and Triec
