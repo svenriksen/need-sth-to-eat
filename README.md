@@ -1,2 +1,2 @@
 # Our first horror game
-# Game made by Svenriksen and Triec
+Game made by Svenriksen and Triec
