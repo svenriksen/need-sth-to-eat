@@ -539,10 +539,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineMode: 0
   outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 1.28
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+  selectedObject: {fileID: 0}
+  lookingAtObject: 0
+  rendered: 0
 --- !u!65 &466846706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1161,6 +1164,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019010015, y: 0.02, z: 0.006714701}
   m_Center: {x: 0, y: 0.000000059604645, z: -0.000000016763806}
+--- !u!114 &1002971645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002971639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 0
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+  selectedObject: {fileID: 0}
+  lookingAtObject: 0
+  rendered: 0
 --- !u!1001 &1032867361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1299,7 +1323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f3ab3abdf0a8954b9270d1a324e1b7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSens: 100
+  mouseSens: 250
   playerBody: {fileID: 1342696140}
 --- !u!81 &1061282448
 AudioListener:
@@ -1778,6 +1802,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
+--- !u!114 &1345824133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345824128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 0
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+  selectedObject: {fileID: 0}
+  lookingAtObject: 0
+  rendered: 0
 --- !u!1 &1349337297 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7640558969779515294, guid: b0838eea4820a8b42a3166f3321753a9, type: 3}
@@ -2339,6 +2384,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019010015, y: 0.02, z: 0.006714701}
   m_Center: {x: 0.000000059604645, y: 0.000000059604645, z: -0.000000022351742}
+--- !u!114 &1974669207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974669201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 0
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+  selectedObject: {fileID: 0}
+  lookingAtObject: 0
+  rendered: 0
 --- !u!1 &1979665858 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6733177361254619370, guid: d2775ee477ec83d4caddfaba151f2a71, type: 3}

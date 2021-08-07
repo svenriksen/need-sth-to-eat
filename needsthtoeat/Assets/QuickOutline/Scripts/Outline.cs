@@ -144,10 +144,13 @@ public class Outline : MonoBehaviour
         }
     }
 
+    public GameObject selectedObject;
+    public bool lookingAtObject = false;
+    public bool rendered = false;
+
+
     void Update()
     {
-
-
 
         if (needsUpdate)
         {
@@ -156,6 +159,33 @@ public class Outline : MonoBehaviour
             UpdateMaterialProperties();
         }
     }
+
+    void OnMouseOver()
+    {
+        selectedObject = GameObject.Find(CastingToObject.selectedObject);
+        lookingAtObject = true;
+        outlineWidth = 3f;
+        if (rendered == false)
+        {
+            UpdateMaterialProperties();
+            rendered = true;
+        }
+    }
+
+    void OnMouseExit()
+    {
+        lookingAtObject = false;
+        
+        outlineWidth = 0f;
+        if(rendered == true)
+        {
+            UpdateMaterialProperties();
+            rendered = false;
+        }
+    }
+
+
+    /*hover and highlight*/
 
     void OnDisable()
     {
