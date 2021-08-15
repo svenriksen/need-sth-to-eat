@@ -1437,6 +1437,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4c1fcef02596b884fb3b07f32d881ae7, type: 2}
+    - target: {fileID: 6027682830724044957, guid: 57f3e1fbdf622ff4a8fea63befa2283c, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
     - target: {fileID: 6777936987907098400, guid: 57f3e1fbdf622ff4a8fea63befa2283c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.951
@@ -1890,7 +1894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f3ab3abdf0a8954b9270d1a324e1b7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSens: 250
+  mouseSens: 100
   playerBody: {fileID: 1342696140}
 --- !u!81 &1061282448
 AudioListener:
@@ -1956,6 +1960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   internalObject: 
+  maxDistance: 3
 --- !u!1 &1093257935 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 89458cd74e615ae459458f33c64f5436, type: 3}
@@ -2350,6 +2355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   internalObject: 
+  maxDistance: 7
 --- !u!1 &1345824128 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
@@ -3026,17 +3032,37 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: ee994ae9cd484534bbf38a6e849f820d, type: 2}
+    - target: {fileID: -516098083770646512, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
     - target: {fileID: 4083501151425157549, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.70710677
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4083501151425157549, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071069
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
@@ -3188,6 +3214,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8691780276856062721, guid: d2775ee477ec83d4caddfaba151f2a71, type: 3}
+--- !u!1 &2039385650 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e4f36a14a7663548b4054958dfaf7cc, type: 3}
+  m_PrefabInstance: {fileID: 1829018760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2039385651
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039385650}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d6c8c4a092185fa49a894b75500120d4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2054111007 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e0abcc63c0585104689153df74d2f4d4, type: 3}
