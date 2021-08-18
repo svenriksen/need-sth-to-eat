@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Drawer
   - Door
+  - Drawer1
+  - Drawer2
+  - FridgeUp
+  - FridgeDown
   layers:
   - Default
   - TransparentFX
