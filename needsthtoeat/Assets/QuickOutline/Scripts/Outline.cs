@@ -148,6 +148,15 @@ public class Outline : MonoBehaviour
     public bool lookingAtObject = false;
     public bool rendered = false;
 
+    Animator anim;
+
+    bool drawerOpened = false;
+    bool drawer1Opened = false;
+    bool drawer2Opened = false;
+    bool doorOpened = false;
+    bool fridgeUpOpened = false;
+    bool fridgeDownOpened = false;
+
 
     void Update()
     {
@@ -158,7 +167,9 @@ public class Outline : MonoBehaviour
 
             UpdateMaterialProperties();
         }
+
     }
+
 
     void OnMouseOver()
     {
@@ -183,6 +194,8 @@ public class Outline : MonoBehaviour
             rendered = false;
         }
     }
+
+
 
 
     /*hover and highlight*/
