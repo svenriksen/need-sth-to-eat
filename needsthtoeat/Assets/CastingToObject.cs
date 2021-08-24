@@ -20,6 +20,12 @@ public class CastingToObject : MonoBehaviour
     private bool doorOpened = true;
     private bool fridgeUpOpened = true;
     private bool fridgeDownOpened = true;
+    private bool cabin1Opened = true;
+    private bool cabin2Opened = true;
+    private bool cabin3Opened = true;
+    private bool cabin4Opened = true;
+    private bool cabin5Opened = true;
+    private bool cabin6Opened = true;
 
     bool touched;
 
@@ -142,6 +148,78 @@ public class CastingToObject : MonoBehaviour
 
                 //This line will set the bool true so it will play the animation.
                 anim.SetBool("fridgeDownOpened", !fridgeDownOpened);
+            }
+            if (theObject.collider.tag == "Cabin1")
+            {
+
+                //This line will get the Animator from  Parent of the door that was hit by the raycast.
+                anim = theObject.transform.GetComponentInParent<Animator>();
+
+                //This will set the bool the opposite of what it is.
+                cabin1Opened = !cabin1Opened;
+
+                //This line will set the bool true so it will play the animation.
+                anim.SetBool("cabin1Opened", !cabin1Opened);
+            }
+            if (theObject.collider.tag == "Cabin2")
+            {
+
+                //This line will get the Animator from  Parent of the door that was hit by the raycast.
+                anim = theObject.transform.GetComponentInParent<Animator>();
+
+                //This will set the bool the opposite of what it is.
+                cabin2Opened = !cabin2Opened;
+
+                //This line will set the bool true so it will play the animation.
+                anim.SetBool("cabin2Opened", !cabin2Opened);
+            }
+            if (theObject.collider.tag == "Cabin3")
+            {
+
+                //This line will get the Animator from  Parent of the door that was hit by the raycast.
+                anim = theObject.transform.GetComponentInParent<Animator>();
+
+                //This will set the bool the opposite of what it is.
+                cabin3Opened = !cabin3Opened;
+
+                //This line will set the bool true so it will play the animation.
+                anim.SetBool("cabin3Opened", !cabin3Opened);
+            }
+            if (theObject.collider.tag == "Cabin4")
+            {
+
+                //This line will get the Animator from  Parent of the door that was hit by the raycast.
+                anim = theObject.transform.GetComponentInParent<Animator>();
+
+                //This will set the bool the opposite of what it is.
+                cabin4Opened = !cabin4Opened;
+
+                //This line will set the bool true so it will play the animation.
+                anim.SetBool("cabin4Opened", !cabin4Opened);
+            }
+            if (theObject.collider.tag == "Cabin5")
+            {
+
+                //This line will get the Animator from  Parent of the door that was hit by the raycast.
+                anim = theObject.transform.GetComponentInParent<Animator>();
+
+                //This will set the bool the opposite of what it is.
+                cabin5Opened = !cabin5Opened;
+
+                //This line will set the bool true so it will play the animation.
+                anim.SetBool("cabin5Opened", !cabin5Opened);
+            }
+            if (theObject.collider.tag == "Cabin6")
+            {
+
+                //This line will get the Animator from  Parent of the door that was hit by the raycast.
+                anim = theObject.transform.GetComponentInParent<Animator>();
+
+                //This will set the bool the opposite of what it is.
+                cabin6Opened = !cabin6Opened;
+
+                //This line will set the bool true so it will play the animation.
+                anim.SetBool("cabin6Opened", !cabin6Opened);
             }
         }
     }

@@ -10,6 +10,12 @@ TagManager:
   - Drawer2
   - FridgeUp
   - FridgeDown
+  - Cabin1
+  - Cabin2
+  - Cabin3
+  - Cabin4
+  - Cabin5
+  - Cabin6
   layers:
   - Default
   - TransparentFX
