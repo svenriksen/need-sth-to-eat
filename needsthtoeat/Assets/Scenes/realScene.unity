@@ -535,6 +535,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 3
 --- !u!1 &271895606 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9140260824956070141, guid: 092c2d7a26423364e97c6e7e61c80c66, type: 3}
@@ -778,6 +780,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 3
 --- !u!95 &457596945
 Animator:
   serializedVersion: 3
@@ -856,6 +860,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 3
 --- !u!65 &466846706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1993,6 +1999,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 3
 --- !u!95 &989224008
 Animator:
   serializedVersion: 3
@@ -2084,6 +2092,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 3
 --- !u!1001 &1032867361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2709,6 +2719,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 5
 --- !u!1 &1349337297 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7640558969779515294, guid: b0838eea4820a8b42a3166f3321753a9, type: 3}
@@ -2768,6 +2780,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 4
 --- !u!1001 &1407398115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2869,6 +2883,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 3
 --- !u!95 &1411573911
 Animator:
   serializedVersion: 3
@@ -3084,6 +3100,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 3
 --- !u!95 &1700727538
 Animator:
   serializedVersion: 3
@@ -3584,6 +3602,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 3
 --- !u!1 &1979665858 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6733177361254619370, guid: d2775ee477ec83d4caddfaba151f2a71, type: 3}
@@ -3686,6 +3706,8 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 3
 --- !u!95 &2074653129
 Animator:
   serializedVersion: 3
@@ -3840,3 +3862,5 @@ MonoBehaviour:
   selectedObject: {fileID: 0}
   lookingAtObject: 0
   rendered: 0
+  person: {fileID: 1342696137}
+  distVerify: 4

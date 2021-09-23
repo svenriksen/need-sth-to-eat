@@ -148,15 +148,9 @@ public class Outline : MonoBehaviour
     public bool lookingAtObject = false;
     public bool rendered = false;
 
-    Animator anim;
+    public GameObject person;
 
-    bool drawerOpened = false;
-    bool drawer1Opened = false;
-    bool drawer2Opened = false;
-    bool doorOpened = false;
-    bool fridgeUpOpened = false;
-    bool fridgeDownOpened = false;
-
+    public float distVerify = 3f;
 
     void Update()
     {
@@ -174,12 +168,33 @@ public class Outline : MonoBehaviour
     void OnMouseOver()
     {
         selectedObject = GameObject.Find(CastingToObject.selectedObject);
+
+
         lookingAtObject = true;
-        outlineWidth = 3f;
-        if (rendered == false)
+
+
+        float dist = Vector3.Distance(person.transform.position, selectedObject.transform.position);
+
+        Debug.Log(dist+" " + rendered);
+        if (dist <= distVerify)
         {
-            UpdateMaterialProperties();
-            rendered = true;
+            outlineWidth = 2f;
+            if (rendered == false)
+            {
+                UpdateMaterialProperties();
+                rendered = true;
+            }
+
+        }
+        else
+        {
+            Debug.Log("out of range "+ rendered);
+            outlineWidth = 0f;
+            if (rendered == true)
+            {
+                UpdateMaterialProperties();
+                rendered = false;
+            }
         }
     }
 
